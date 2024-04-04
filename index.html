@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider Stories</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Slider Stories</h1>
+      <section id="slide" class="slide">
+        <div id="slide-elements" class="slide__elements">
+          <img
+            class="slide__element"
+            src="src/assets/images/imagem_1.jpg"
+            alt="Lobo"
+          />
+          <img
+            class="slide__element"
+            src="src/assets/images/imagem_2.jpg"
+            alt="Lobo"
+          />
+          <img
+            class="slide__element"
+            src="src/assets/images/imagem_3.jpg"
+            alt="Lobo"
+          />
+          <video
+            class="slide__element"
+            playsinline
+            src="src/assets/videos/video.mp4"
+          ></video>
+        </div>
+        <div id="slide-controls" class="slide__controls"></div>
+      </section>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
